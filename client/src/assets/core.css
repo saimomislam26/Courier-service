@@ -1,0 +1,2283 @@
+/* Login CSS */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;600;700;800;900&display=swap');
+
+body{
+  font-family: 'Heebo', sans-serif;}
+.login_oueter {
+  width: 360px;
+  max-width: 100%;
+  margin-top: 10%;
+  cursor: default;
+}
+
+.login_oueter input{
+border: none !important;
+}
+.logo_outer{
+  text-align: center;
+}
+.logo_outer img{
+  width:120px;
+  margin-bottom: 40px;
+}
+#login{
+  border-radius: 12px;
+}
+#signinbtn{
+  width: 100%;
+  margin: auto;
+  margin-right: 0.5rem;
+  background-color: #329ee2;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+#loginbtnDiv{
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.fas{
+  color: #329ee2;
+}
+.title {
+  color: #329ee2;
+  text-transform: capitalize;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+#password input:focus {
+  outline:0px !important;
+}
+
+.updatefrom{
+  padding: 0.5rem;
+}
+.updatefrom label{
+  color: #03045e !important;
+  font-weight: 600;
+}
+  #colFormLabelSm, #sel1{
+    border: 1px solid #00b1d5;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #9da5b0;
+  }
+
+  #datePiker{
+  margin-left: 10rem;
+  }
+#dataForm{
+  box-shadow: rgb(0 0 0 / 12%) 0px 3px 8px;
+  padding-left: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 12px;
+}
+.updatefrom div input,select {
+    width: 90%;
+}
+.updatefrom div select {
+    width: 90%;
+}
+.frombtn {
+    justify-content: end;
+    width: 68%;
+}
+.frombtn button{
+    width: 6rem;
+    margin: 0 1rem;
+    margin-right: 0;
+  }
+
+/* Update Profile */
+body{
+  background:  #f5f5f7;
+}
+.emp-profile {
+  padding: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 0.5rem;
+  background: #fff;
+  border: 1px solid #dedede;
+}
+.profile-img{
+  text-align: center;
+}
+.profile-img img{
+  width: 70%;
+  height: 100%;
+}
+.profile-img .file {
+  position: relative;
+  overflow: hidden;
+  margin-top: -20%;
+  width: 70%;
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
+  background: #212529b8;
+}
+
+.profile-img .file input {
+  position: absolute;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+.profile-head h5{
+  color: #333;
+}
+.profile-head h6{
+  color: #0062cc;
+}
+.profile-edit-btn{
+  border: none;
+  border-radius: 1.5rem;
+  width: 70%;
+  padding: 2%;
+  font-weight: 600;
+  color: #6c757d;
+  cursor: pointer;
+}
+.proile-rating{
+  font-size: 12px;
+  color: #818182;
+  margin-top: 5%;
+}
+.proile-rating span{
+  color: #495057;
+  font-size: 15px;
+  font-weight: 600;
+}
+.profile-head .nav-tabs{
+  margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+  font-weight:600;
+  border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+  border: none;
+  border-bottom:2px solid #0062cc;
+}
+.profile-work{
+  padding: 14%;
+  margin-top: -15%;
+}
+.profile-work p{
+  font-size: 12px;
+  color: #818182;
+  font-weight: 600;
+  margin-top: 10%;
+}
+.profile-work a{
+  text-decoration: none;
+  color: #495057;
+  font-weight: 600;
+  font-size: 14px;
+}
+.profile-work ul{
+  list-style: none;
+}
+.profile-tab label{
+  font-weight: 600;
+}
+.profile-tab p{
+  font-weight: 600;
+  color: #0062cc;
+}
+
+.show-pic{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 200px;
+  width: 100%;
+  height: 100vh;
+}
+
+.notclick{
+  font-weight: bold;
+}
+
+.t-click:not(.notclick){
+  cursor:pointer;
+  }
+
+.form-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.dataDiv {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.dataViewCard {
+  padding: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 0.5rem;
+  background: #fff;
+  border: 1px solid #dedede;
+}
+.col label{
+text-align: center;
+}
+.profile-tab label{
+  font-weight: 600;
+  text-align: center;
+  color: #03045e;
+}
+.profile-tab p{
+  font-weight: 400;
+  color: #0077b6;
+}
+.resiverinfo{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+.senderinfo{
+  width: 50%;
+  text-align: left;
+  margin: auto;
+
+}
+
+#DashboardBranchlist{
+margin: 2rem;
+margin-top: 2rem;
+margin-left: 2rem;
+margin-left: 0;
+padding: 0;
+width: 30%;
+color: #2b282891;
+border: none;
+border: 2px solid #00b1d5;
+border-radius: 8px;
+padding: 0.2rem;
+}
+#selectbranchbtn {
+  background: #00b1d5;
+  color: #fff;
+  padding: 0.3rem 0.2rem;
+  padding-right: 0;
+  width: 5rem;
+  border: 1px solid #00b1d5;
+
+}
+#selectbranchbtn:hover {
+  background: rgb(0 0 0 / 10%);
+  color: rgb(0 0 0 / 75%);
+  padding: 0.3rem 0.2rem;
+  padding-right: 0;
+  width: 5rem;
+  box-shadow: none;
+  border: 1px solid #00b1d5;
+}
+.card_datadiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.dataicon{
+font-size: 3rem;
+margin-top: 1rem;
+margin: 1rem 1rem;
+}
+
+.bodyDiv{
+  padding: 0.5rem 0.5rem;
+}
+
+.card_datadiv div h3{
+  color: #03045e;
+}
+
+.card_datadiv div .fas{
+  color: #00b1d5;
+}
+.card_datadiv div p{
+  color: #00b1d5;
+}
+
+
+#SearchDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  border: 1px solid #00b1d5;
+  border-radius: 4px;
+  position: relative;
+  background: #00b1d5;
+}
+#ProdactSearchDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  /* border: 1px solid #00b1d5; */
+  border-radius: 4px;
+  position: relative;
+  /* background: #00b1d5; */
+  width: 100%;
+  margin: auto;
+      margin-top: auto;
+      margin-left: auto;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.Productbox{
+  display: contents;
+}
+#ProdactSearchDiv .Productbox button{
+  border: 1px solid #009efb;
+  border-radius: 0px 4px 4px 0px;
+}
+#ProdactSearchDiv .Productbox input{
+border: 1px solid #009efb;
+  border-radius: 4px 0px 0px 4px;
+}
+
+
+#Searchbtn{
+  color: #fff;
+  outline: none;
+}
+
+*{
+  font-family: 'Heebo', sans-serif;
+}
+.nav-tabs{
+  cursor: pointer;
+}
+.react-datepicker__input-container input{
+    border: 1px solid #00b1d5;
+    padding: 5px 10px;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #9da5b0;
+    cursor: pointer;
+
+}
+#selectstyle{
+border: 1px solid #00b1d5;
+border-radius: 5px;
+}
+
+#selectstyle-data{
+  border: 1px solid #00b1d5;
+  border-radius: 5px;
+  }
+
+.stylish-table td{
+  font-size: 14px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  color: #0077b6;
+  text-align: center;
+}
+
+.profilelink{
+  color:  #868e96;
+  padding-left: 0;
+}
+
+.profilelink i {
+  color: #868e96;
+  font-size: 18px;
+}
+.profilelink span {
+  margin-left: 0.2rem;
+}
+
+#profileDiv{
+  padding-left: 0rem;
+  padding-right: 0.5rem;
+}
+#useri{
+font-size: 30px;
+color: #fff;
+}
+/* ____________________logo */
+#main-wrapper[data-layout=vertical] .topbar .top-navbar .navbar-header[data-logobg=skin6] {
+  background: #0179bc;
+  color: #fff;
+}
+
+.topbar .top-navbar {
+  min-height: 70px;
+  padding: 0;
+  background: #017abd;
+}
+.topbar .top-navbar h1 {
+font-size: 28px;
+color: #fff;
+}
+
+/* .text-muted {
+  color: #03045e !important;
+} */
+.list-inline-item label{
+  color: #017abd;
+}
+
+/* _______btn */
+.myButtonID {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #0077b6;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 6px 24px;
+  text-decoration: none;
+  /* text-shadow: 0px 1px 0px #ffffff; */
+  width: 74px;
+  text-align: center;
+  padding: 0rem 0rem;
+}
+.myButtonCS {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #0077b6 !important;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-align: center;
+}
+.myButtonCS:hover {
+  /* box-shadow: inset 0px 1px 0px 0px #ffffff; */
+  /* background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%); */
+  background: #0077b6;
+  border-radius: 6px;
+  border: 1px solid #0077b6;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff !important;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-align: center;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+  color: #0077b6;
+}
+.form-control {
+  border: 1px solid #01a3cf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#Createbtn {
+  color: #0077b6;
+  border: 1px solid #0077b6;
+  border-radius: 6px;
+}
+#Createbtn:hover {
+  color: #fff;
+  background-color: #0077b6;
+  border: 1px solid #0077b6;
+  border-radius: 6px;
+}
+.buttonAll {
+  color: #00b1d5;
+  border: 1px solid #00b1d5;
+  border-radius: 6px;
+  outline: none;
+  padding: 0.3rem;
+}
+.selectinputAll {
+  color: #00b1d5;
+  border: 1px solid #00b1d5;
+  border-radius: 6px;
+  outline: none;
+  padding: 0.3rem;
+}
+
+
+.buttonAll:hover {
+  color: #fff;
+  background-color: #0077b6;
+  border: 1px solid #0077b6;
+  border-radius: 6px;
+}
+#editbtn{
+  padding: 0.4rem 1rem;
+  outline: none;
+}
+#Parcelform{
+width: 80%;  
+margin: auto;
+}
+
+
+.Deletebtn{
+  color: #00b1d5;
+  border: 1px solid #00b1d5;
+  border-radius: 6px;
+  outline: none;
+  padding: 0.3rem;
+}
+.Deletebtn:hover {
+  color: #fff;
+  background-color: #0077b6;
+  border: 1px solid #0077b6;
+  border-radius: 6px;
+}
+.Deletebtn{
+  padding: 0.4rem 1rem;
+  outline: none;
+}
+td h6{
+  color: #00b1d5;
+}
+
+.stylish-table th{
+font-size: 1.1rem;
+font-weight: 600;
+}
+.text-primary {
+  color: #7460ee!important;
+  font-size: 12px;
+}
+.text-info {
+  color: #009efb!important;
+  font-size: 12px;
+}
+.graphResponsive{
+  min-width: 700px;
+overflow-x: auto;
+}
+
+/* #CuserSelect input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+    font-weight: 700;
+} */
+
+#selectYear{
+  width: 7rem;
+}
+#Dashboardyearlist {
+  margin: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-left: 0;
+  padding: 0;
+  width: 30%;
+  color: #00b1d5;
+  border: none;
+  border: 1px solid #00b1d5;
+  border-radius: 8px;
+  padding: 0.3rem 0.2rem;
+  width: 8rem;
+}
+#paginationDiv{
+float: right;
+margin-right: 6rem;
+}
+
+
+.FeePaid {
+  display: flex;
+  width: 80%;
+}
+.FeePaid  input{
+  margin-right: 1rem;
+
+}
+.FeePaid  label{
+  font-weight: 300;
+
+}
+.FeePaid  label input{
+  width: 20%;
+
+}
+.inputstyle{
+border: 1px solid #00b1d5;
+border-radius: 4px;
+padding: 1rem
+}
+
+.css-1s2u09g-control{
+  border: 1px solid #00b1d5 !important;
+  border-radius: 4px;
+}
+#login .css-1s2u09g-control{
+  border: 1px solid #e8ecec !important;
+  border-radius: 4px;
+
+}
+
+#Fee{
+  width: 86%;
+}
+#SearchNav{
+  display: flex;
+  justify-content: space-between;
+}
+#accoutList h5{
+  margin-top: 1rem;
+}
+
+#updateUser{
+  margin-top: 0;
+}
+#updateUser{
+  margin-top: 0;
+}
+#UpdateuserBranch{
+  font-size: 1rem;
+  height: 2.5rem;
+}
+.updatebtn{
+  display: flex;
+  justify-content: space-between;
+  gap: 2;
+}
+#BranchEmployeedb td{
+  text-align: left;
+}
+
+#BFselect{
+  border: 0px solid #009efb;
+  border-radius: 4px;
+  width: 90%;
+}
+#FSelect{
+  width: 90%;
+}
+#pYinput{
+  width: 90%;
+}
+/* #SelectBFFeeds{
+  width: 25%;
+  margin-right: auto;
+
+} */
+
+
+.FeePaid input {
+  margin-right: 1rem;
+}
+
+.custom_progress{
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    margin-top: 4rem;
+    box-sizing: border;
+}
+
+
+.editDetailsBtn {
+    float: right;
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    display: inline-block;
+    cursor: pointer;
+    color: #0077b6;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#BranchCreateDiv{
+  display: block;
+}
+#BSearchDiv{
+  display: flex;
+  flex-wrap: nowrap;
+  border: 1px solid #00b1d5;
+  border-radius: 4px;
+  /* position: absolute; */
+  background: #00b1d5;
+  align-items:baseline;
+}
+.profilbtn{
+  float: right;
+padding-right: 0rem;
+margin: 1rem;
+    margin-top: 1rem;
+}
+.updateP input{
+  border-radius: 4px !important;
+}
+.profilbtn button{
+  background-color:#fff;
+  color: #0062cc;
+  border: 1px solid #0062cc !important;
+}
+.input-group-prepend input{
+  border-radius: 4px !important;
+}
+.profilbtn button:hover{
+  background-color: #0062cc;
+  color: #fff;
+}
+.css-b62m3t-container {
+  position: relative;
+  box-sizing: border-box;
+  width: 15rem;
+}
+
+#accoutList {
+  justify-content: space-between;
+  align-items: normal;
+  margin-bottom: 1rem;
+}
+.css-b62m3t-container {
+  position: relative;
+  box-sizing: border-box;
+  width: 87%;
+}
+
+.branchSelet {
+  width: 12rem;
+  margin-left: 2rem;
+  align-items: baseline;
+  margin-top: 0.2rem;
+}
+.PfromSelect{
+  width: 90%;
+}
+
+@media only screen and (max-width: 768px){
+  .updatefrom {
+    padding: 0.5rem;
+    display: block;
+}
+}
+#PfromSelectID{
+  width: 90%;
+}
+#ProductTypeid{
+  width: 90%;
+}
+#SearcbarDiv{
+align-items: flex-start;
+}
+.phnumerSearch{
+  border: 1px solid#00b1d5;
+}
+#FeedSearch{
+  border: 1px solid #009efb;
+}
+
+.updateP{
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 15px;
+}
+.inputMt{
+  margin-top: 1rem;
+}
+#AlertBox{
+  width: 55%;
+  height: 3rem;
+  z-index: 68;
+  position: absolute;
+  margin: auto;
+  /* position: relative; */
+  /* left: 0; */
+  margin-top: 0%;
+  margin-left: 37%;
+  /* top: 0; */
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  position: fixed;
+}
+#ParcelPat{
+  display: flex;
+  margin-left: auto;
+}
+.table-responsive {
+  scrollbar-width: none;
+}
+#branchListNav{
+  align-items: baseline;
+}
+#employeeSelect{
+  z-index: 2;
+}
+.graphbody{
+z-index: 0;
+}
+#PDatePikerDiv {
+  text-align: right;
+  z-index: 2;
+  /* max-width: 10rem; */
+}
+#adminBranchListS{
+  z-index: 2;
+}
+#Uselectstyle{
+  padding: 0.3rem 1rem;
+  background: #fff;
+}
+/* * / smartphones, iPhone, portrait 480x320 phones /  */
+ @media (max-width:320px)  {
+  .card_datadiv div h3 {
+    font-size: 14px;
+}
+
+#BSearchDivElist button {
+  margin-top: 1rem;
+  max-width: 10rem;
+}
+  .custom_progress p{
+    font-size: 11px;
+  }
+  #datePiker {
+    margin-left:5.3rem;
+   }
+#dataForm {
+  box-shadow: rgb(0 0 0 / 12%) 0px 3px 8px;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 12px;
+}
+#selectstyle {
+  border: 1px solid #00b1d5;
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 90%;
+}
+#selectstyle-data {
+  border: 1px solid #00b1d5;
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 50%;
+}
+#DashboardBranchlist {
+  margin: 2rem;
+      margin-top: 2rem;
+      margin-left: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-left: 0;
+  padding: 0;
+  width: 56%;
+  color: #2b282891;
+  border: none;
+  border: 1px solid #00b1d5;
+  border-radius: 8px;
+  padding: 0.3rem 0.2rem;
+}
+
+.mb-2, .my-2 {
+  margin-bottom: 0rem!important;
+}
+.mt-2, .my-2 {
+  margin-top: 0rem!important;
+}
+#colFormLabelSm, #sel1 {
+  border: 1px solid #00b1d5;
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+}
+#datePiker {
+  margin-left: 0rem;
+  width: 100%;
+}
+.BranchShowDiv{
+display: flex;
+justify-content: space-around;
+align-items: baseline;
+  }
+  .fa-truck {
+    margin-right: 0;
+  }
+  .frombtn {
+    justify-content: end;
+    width: 105%;
+}
+.react-datepicker__input-container input {
+  border: 1px solid #00b1d5;
+  padding: 5px 10px;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+.react-datepicker__input-container input {
+  border: 1px solid #00b1d5;
+  padding: 5px 10px;
+  width: 73%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+}
+.page-wrapper>.page-content {
+  padding: 10px;
+  min-height: calc(100vh - 116px);
+}
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: .25rem;
+  margin-top: 1rem;
+}
+.react-datepicker__input-container input {
+  border: 1px solid #00b1d5;
+  padding: 5px 10px;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+}
+.datas{
+  width: 30%;
+
+}
+.profile-tab p {
+  font-weight: 400;
+  color: #0077b6;
+  font-size: 12px;
+}
+.pagination {
+  display: flex;
+  padding-left: 2rem;
+  list-style: none;
+  border-radius: 4px;
+}
+#AlertBox{
+  width: 80%;
+  height: 3rem;
+  z-index: 68;
+  position: absolute;
+  margin: auto;
+  /* position: relative; */
+  /* left: 0; */
+  margin-top: 0%;
+  margin-left: 37%;
+  /* top: 0; */
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  position: fixed;
+}
+#Fee {
+  width: 50%;
+
+ }
+}
+.modal-backdrop{
+  position: relative;
+}
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 60vw;
+  background: #00000003;
+  position: fixed;
+  /* display: none; */
+  /* left: -11%; */
+  z-index: 1;
+}
+/* / smartphones, iPhone, portrait 480x320 phones /  */
+.card {
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+ @media (min-width:320px)  {
+  .card_datadiv div h3 {
+    font-size: 14px;
+}
+  #AlertBox{
+    width: 90%;
+    height: 3rem;
+    z-index: 68;
+    position: absolute;
+    margin: auto;
+    /* position: relative; */
+    /* left: 0; */
+    margin-top: 0%;
+    margin-left: 37%;
+    /* top: 0; */
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    position: fixed;
+  }
+  #datePiker {
+    margin-left:5.3rem;
+}
+.loginArlat {
+  margin-left: 3rem;
+  margin-top: 1.7rem;
+ font-size: 12px;
+ width: 100%;
+}
+.card-body {
+  z-index: 0;
+}
+#dataForm {
+  box-shadow: rgb(0 0 0 / 12%) 0px 3px 8px;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 12px;
+}
+#selectstyle {
+  border: 1px solid #00b1d5;
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 86%;
+}
+#dataInput{
+  width: 87%;
+}
+#selectstyle-data {
+  border: 1px solid #00b1d5;
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 50%;
+}
+#DashboardBranchlist {
+  margin: 2rem;
+      margin-top: 2rem;
+      margin-left: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-left: 0;
+  padding: 0;
+  width: 56%;
+  color: #2b282891;
+  border: none;
+  border: 1px solid #00b1d5;
+  border-radius: 8px;
+  padding: 0.3rem 0.2rem;
+}
+
+.mb-2, .my-2 {
+  margin-bottom: 0rem!important;
+}
+.mt-2, .my-2 {
+  margin-top: 0rem!important;
+}
+#colFormLabelSm, #sel1 {
+  border: 1px solid #00b1d5;
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+}
+#datePiker {
+  margin-left: 0rem;
+  width: 100%;
+}
+.BranchShowDiv{
+display: flex;
+justify-content: space-around;
+align-items: baseline;
+  }
+  .fa-truck {
+    margin-right: 0;
+  }
+  .frombtn {
+    justify-content: end;
+    width: 105%;
+}
+.react-datepicker__input-container input {
+  border: 1px solid #00b1d5;
+  padding: 5px 10px;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+.react-datepicker__input-container input {
+  border: 1px solid #00b1d5;
+  padding: 5px 10px;
+  width: 73%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+}
+.page-wrapper>.page-content {
+  padding: 10px;
+  min-height: calc(100vh - 116px);
+}
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: .25rem;
+  margin-top: 1rem;
+}
+.react-datepicker__input-container input {
+  border: 1px solid #00b1d5;
+  padding: 5px 10px;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+}
+.datas{
+  width: 30%;
+
+}
+.profile-tab p {
+  font-weight: 400;
+  color: #0077b6;
+  font-size: 12px;
+}
+.pagination {
+  display: flex;
+  padding-left: 2rem;
+  list-style: none;
+  border-radius: 4px;
+}
+#SearchNav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 0rem;
+}
+#prodactdate input {
+  margin-left: 0rem;
+  margin-top: 1.2rem;
+  width: 18.5rem;
+  text-align: center;
+}
+
+#Fee {
+  width: 61%;
+}
+#prodactdate {
+  margin-top: 0rem;
+}
+#prodactdate{
+width: 74%;
+}
+#BSearchDivElist {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: 1px solid #00b1d5; */
+  /* border-radius: 4px; */
+  /* position: absolute; */
+  /* background: #00b1d5; */
+  align-items: baseline;
+  width: 100%;
+}
+#BSearchDivElist button{
+  margin-top: 1rem;
+}
+#SelectBFFeeds {
+  width: 100%;
+  margin-right: auto;
+  margin-top: 0rem;
+  margin-left: 0.4rem;
+}
+ }
+
+
+
+/* / portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. /  */
+@media (min-width:481px)  {
+  #prodactdate .react-datepicker__input-container{
+    text-align: left;
+  }
+  .branchSelet {
+    width: 100%;
+    margin-left: 0rem;
+    align-items: baseline;
+    margin-top: 0.2rem;
+}
+#dataInput {
+  width: 64%;
+}
+  .custom_progress p{
+    font-size: 14px;
+  }
+  #AlertBox{
+    width: 55%;
+    height: 3rem;
+    z-index: 68;
+    position: absolute;
+    margin: auto;
+    /* position: relative; */
+    /* left: 0; */
+    margin-top: 0%;
+    margin-left: 37%;
+    /* top: 0; */
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    position: fixed;
+  }
+  #datePiker {
+    margin-left:5.3rem;
+}
+#dataForm {
+  box-shadow: rgb(0 0 0 / 12%) 0px 3px 8px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 12px;
+}
+#selectstyle {
+  border: 1px solid #00b1d5;
+  border-radius: 5px;
+  margin-top: 1.2rem;
+  width: 66%;
+  margin-bottom: 0;
+}
+.pagination {
+  display: flex;
+  padding-left: 2rem;
+  list-style: none;
+  border-radius: 4px;
+}
+div .custom-select {
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+#DashboardBranchlist {
+  margin: 2rem;
+      margin-top: 2rem;
+      margin-left: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-left: 0;
+  padding: 0;
+  width: 60%;
+  color: #2b282891;
+  border: none;
+  border: 1px solid #00b1d5;
+  border-radius: 8px;
+  padding: 0.3rem 0.2rem;
+}
+
+.mb-2, .my-2 {
+  margin-bottom: 0rem!important;
+}
+.mt-2, .my-2 {
+  margin-top: 0rem!important;
+}
+#colFormLabelSm, #sel1 {
+  border: 1px solid #00b1d5;
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+}
+#datePiker {
+  margin-left: 0rem;
+  width: 100%;
+}
+.frombtn {
+  justify-content: end;
+  width: 68%;
+}
+.react-datepicker__input-container input {
+  border: 1px solid #00b1d5;
+  padding: 5px 10px;
+  width: 66%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+}
+.page-wrapper>.page-content {
+  padding: 0px;
+  min-height: calc(100vh - 116px);
+}
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  margin-top: 1rem;
+  z-index: 1;
+}
+.datas{
+  width: 50%;
+}
+#SearchNav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 0rem;
+}
+#prodactdate input {
+  margin-left: 0rem;
+  margin-top: 1.5rem;
+}
+#SelectBFFeeds {
+  width: 100%;
+  margin-right: auto;
+  margin-top: 0rem;
+}
+.react-datepicker__input-container input {
+  border: 1px solid #00b1d5;
+  padding: 5px 10px;
+  width: 7rem;
+  margin-right: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+  margin-left: 0rem;
+}
+#SelectBFFeeds{
+  width: 74%;
+  margin-right: auto;
+  z-index: 7;
+}
+
+#prodactdate{
+  margin-top: 0rem;
+}
+#BSearchDivElist {
+  display: flex;
+  flex-wrap: nowrap;
+  /* border: 1px solid #00b1d5; */
+  /* border-radius: 4px; */
+  /* position: absolute; */
+  /* background: #00b1d5; */
+  align-items: baseline;
+  width: 100%;
+}
+#BSearchDivElist input{
+width: 40%;
+margin-right: 2rem;
+}
+#Fee {
+  width: 76%;
+}
+ }
+
+
+
+
+
+
+/* / portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones / */
+@media (min-width:641px)  {
+  .branchSelet {
+    width: 12rem;
+    margin-left: 2rem;
+    align-items: baseline;
+    margin-top: 0.2rem;
+}
+  #SelectBFFeeds {
+    width: 100%;
+    margin-right: auto;
+    margin-top: 0rem;
+  }
+
+  .loginArlat{
+    margin-left: 6rem;
+  }
+  #datePiker {
+    margin-left:5.3rem;
+    width: 50%;
+
+}
+.BranchShowDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  /* width: 60%; */
+  width: 15rem;
+}
+
+#dataForm {
+  box-shadow: rgb(0 0 0 / 12%) 0px 3px 8px;
+  padding-left: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 12px;
+}
+#selectstyle {
+  border: 1px solid #00b1d5;
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 55%;
+}
+#DashboardBranchlist {
+  margin: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-left: 0;
+  padding: 0;
+  width: 30%;
+  color: #2b282891;
+  border: none;
+  border: 1px solid #00b1d5;
+  border-radius: 8px;
+  padding: 0.3rem 0.2rem;
+}
+
+
+
+.mb-2, .my-2 {
+  margin-bottom: 0rem!important;
+}
+.mt-2, .my-2 {
+  margin-top: 0rem!important;
+}
+#colFormLabelSm, #sel1 {
+  border: 1px solid #00b1d5;
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+}
+.dataicon {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin: 1rem 0rem;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+  margin-bottom: 0rem;
+}
+.page-wrapper>.page-content {
+  padding: 30px;
+  min-height: calc(100vh - 116px);
+}
+.datas{
+  width: 50%;
+
+}
+.card_datadiv div h3 {
+  font-size: 14px;
+}
+.card_datadiv div .fas {
+  color: #00b1d5;
+  font-size: 40px;
+}
+#SearchNav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-right: 0rem;
+}
+#prodactdate input{
+  /* margin-left: 3rem; */
+}
+.react-datepicker__input-container input {
+  border: 1px solid #00b1d5;
+  padding: 5px 10px;
+  width: 7rem;
+  margin-right: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+  margin-left: 0rem;
+}
+#prodactdate{
+  /* margin-left: 5rem; */
+}
+
+#SelectBFFeeds{
+  width: 100%;
+  margin-right: auto;
+  z-index: 7;
+}
+#Fee {
+  width: 70%;
+}
+.col-sm {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+#idlabel{
+  max-width: 100%
+}
+.css-b62m3t-container {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.branchSelet {
+  width: 10rem;
+  margin-left: 0rem;
+  align-items: baseline;
+  margin-top: 0.2rem;
+}
+#BSearchDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  border: 1px solid #00b1d5;
+  border-radius: 4px;
+  /* position: absolute; */
+  background: #00b1d5;
+  align-items: baseline;
+  width: 80%;
+}
+#BSearchDivElist {
+  display: flex;
+  flex-wrap: nowrap;
+  /* border: 1px solid #00b1d5; */
+  /* border-radius: 4px; */
+  /* position: absolute; */
+  /* background: #00b1d5; */
+  align-items: baseline;
+  width: 100%;
+}
+#BSearchDivElist input{
+  margin-right: 4rem;
+}
+ #createBtnAdmin{
+width: 15rem;
+padding: .5rem 0rem;
+}
+#dataInput {
+  width: 55%;
+}
+}
+
+/* / portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones /  */
+@media (min-width:961px)  {
+  #dataInput {
+    width: 87%;
+}
+  #prodactdate {
+    margin-left: 4rem;
+}
+#prodactdate input {
+  /* margin-left: 0rem; */
+}
+#prodactdate input {
+  margin-left: 0rem;
+  margin-top: 0rem;
+}
+#prodactdate {
+  margin-top: 0rem;
+  z-index: 7;
+}
+
+  .loginArlat{
+    margin-left: 9rem;
+  }
+  #datePiker {
+    margin-left: 7rem;
+}
+#DashboardBranchlist {
+  margin: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-left: 0;
+  padding: 0;
+  width: 30%;
+  color: #2b282891;
+  border: none;
+  border: 1px solid #00b1d5;
+  border-radius: 8px;
+  padding: 0.3rem 0.2rem;
+}
+
+  #dataForm {
+    box-shadow: rgb(0 0 0 / 12%) 0px 3px 8px;
+    /* padding-left: 10rem; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 12px;
+}
+#selectstyle {
+  border: 1px solid #00b1d5;
+  border-radius: 5px;
+  margin-top: 0rem;
+  width: 7rem;
+  /* margin-left: 4rem; */
+}
+/* #dataInput{
+  margin-left: 1rem;
+} */
+
+.dataicon {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin: 1rem 0rem;
+}
+.dataicon {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin: 1rem 0rem;
+}
+.react-datepicker__input-container input {
+  border: 1px solid #00b1d5;
+  padding: 5px 10px;
+  width: 80%;
+  margin-right: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+  margin-left: 0rem;
+}
+#prodactdate{
+  /* margin-left: auto; */
+}
+.FeePaid {
+  display: flex;
+  width: 83%;
+}
+#Fee {
+  width: 76%;
+}
+#idlabel{
+  max-width: 100%
+}
+.dataViewCard {
+  padding: 4% 2%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 0.5rem;
+  background: #fff;
+  border: 1px solid #dedede;
+}
+#BSearchDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  border: 1px solid #00b1d5;
+  border-radius: 4px;
+  /* position: absolute; */
+  background: #00b1d5;
+  align-items: baseline;
+  width: 100%;
+}
+/* -----------DivNav----------------- */
+#ParcelPat {
+  width: 46%;
+  display: flex;
+  margin-left: auto;
+}
+#serchArea{
+  width: 40%;
+}
+#FeedsNav{
+  display: flex;
+justify-content: space-between;
+}
+#BSearchDivElist input {
+  margin-right: 1rem;
+}
+#BSearchDivElist input {
+  width: 40%;
+  margin-right: 2rem;
+}
+.branchSelet {
+  width: 14rem;
+  margin-left: 1rem;
+  align-items: baseline;
+  margin-top: 0.2rem;
+}
+ }
+
+
+ /* / (768x1024) iPad 1 & 2, Portrait / */
+/*  
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #datePiker {
+    margin-left:5.3rem;
+    width: 50%;
+
+}
+.BranchShowDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+
+}
+#dataForm {
+  box-shadow: rgb(0 0 0 / 12%) 0px 3px 8px;
+  padding-left: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 12px;
+}
+#selectstyle {
+  border: 1px solid #00b1d5;
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 50%;
+}
+#DashboardBranchlist {
+  margin: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-left: 0;
+  padding: 0;
+  width: 30%;
+  color: #2b282891;
+  border: none;
+  border: 2px solid #00b1d5;
+  border-radius: 8px;
+  padding: 0.2rem;
+}
+.mb-2, .my-2 {
+  margin-bottom: 0rem!important;
+}
+.mt-2, .my-2 {
+  margin-top: 0rem!important;
+}
+#colFormLabelSm, #sel1 {
+  border: 1px solid #00b1d5;
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #9da5b0;
+}
+.dataicon {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin: 1rem 0rem;
+}
+#SearchNav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.updatefrom {
+  padding: 0.5rem;
+  display: flex;
+}
+.profile-edit-btn {
+  width: 100% !important;
+}
+
+
+
+#ParcelPat {
+  width: 46%;
+  display: flex;
+  margin-left: auto;
+}
+#serchArea{
+  width: 40%;
+}
+#FeedsNav{
+  display: flex;
+justify-content: space-between;
+}
+#BSearchDivElist input {
+  margin-right: 1rem;
+}
+#BSearchDivElist input {
+  width: 40%;
+  margin-right: 2rem;
+}
+
+.branchSelet {
+  width: 14rem;
+  margin-left: 1rem;
+  align-items: baseline;
+  margin-top: 0.2rem;
+}
+ } */
+
+
+@media (min-width:1025px) {
+  .profile-edit-btn {
+    width: 100% !important;
+  }
+  .loginArlat{
+    margin-left: 10rem;
+  }
+  #datePiker {
+    margin-left: 9rem;
+}
+.FeePaid input {
+  margin-right: 0.5rem;
+}
+#Fee {
+  width: 85%;
+}
+.topbar .top-navbar h1 {
+  font-size: 28px;
+  color: #fff;
+  margin-left: 1rem;
+}
+  /* .custom_progress {
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 4rem;
+} */
+.loginArlat{
+  margin-left: 12rem;
+}
+.FeePaid input {
+  margin-right: 1rem;
+}
+#selectstyle {
+  border: 1px solid #00b1d5;
+  border-radius: 5px;
+  margin-top: 0rem;
+  width: 100%;
+  margin-left: -1rem;
+}
+#SelectBFFeeds{
+  width: 56%;
+  margin-right: auto;
+  z-index: 7;
+}
+#SelectBFFeeds .css-b62m3t-container{
+  width: 8.5rem;
+}
+#SearchDiv input{
+  border: none;
+}
+#dataInput {
+  width: 8.5rem;
+  margin-left: 1rem;
+  z-index: 9999;
+}
+#prodactdate {
+}
+.branchSelet {
+width: 15rem;
+margin-left: 3rem;
+align-items: baseline;
+margin-top: 0.2rem;
+}
+#BSearchDiv input {
+  border: 1px solid #009efb;
+}
+#SelectBFFeeds {
+  width: 39%;
+  margin-left: 0rem;
+  z-index: 7;
+}
+#createBtnAdmin {
+width: 9rem;
+padding: .5rem 0rem;
+}
+#BSearchDivElist input {
+width: 50%;
+margin-right: 2rem;
+}
+#prodactdate {
+margin-left: 2rem;
+}
+#prodactdate {
+margin-left: 1rem;
+width: 8rem;
+}
+#ParcelPat {
+  display: flex;
+  margin-left: auto;
+}
+#selectstyle {
+  border: 1px solid #00b1d5;
+  border-radius: 5px;
+  margin-top: 0rem;
+  width: 100%;
+  /* margin-left: -2rem; */
+}
+/* --------------DivNav--- */
+
+#ParcelPat {
+  width: 46%;
+  display: flex;
+  margin-left: auto;
+}
+#serchArea{
+  width: 40%;
+}
+#FeedsNav{
+  display: flex;
+justify-content: space-between;
+}
+ }
+
+ @media (min-width:1281px) {
+  /* .custom_progress {
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 4rem;
+} */
+  .loginArlat{
+    margin-left: 12rem;
+  }
+  .FeePaid input {
+    margin-right: 1rem;
+  }
+#selectstyle {
+    border: 1px solid #00b1d5;
+    border-radius: 5px;
+    margin-top: 0rem;
+    width: 100%;
+    /* margin-left: -1rem; */
+}
+  #SelectBFFeeds .css-b62m3t-container{
+    width: 8.5rem;
+  }
+  #SearchDiv input{
+    border: none;
+  }
+  /* #dataInput {
+    width: 8.5rem;
+    margin-left: 0;
+    z-index: 9999;
+} */
+#prodactdate {
+}
+.branchSelet {
+  width: 15rem;
+  margin-left: 3rem;
+  align-items: baseline;
+  margin-top: 0.2rem;
+}
+#BSearchDiv input{
+  border: none;
+}
+#SelectBFFeeds {
+  width: 39%;
+  margin-left: 0rem;
+  z-index: 7;
+  margin-right: 1rem;
+  
+}
+#createBtnAdmin {
+  width: 9rem;
+  padding: .5rem 0rem;
+}
+#BSearchDivElist input {
+  margin-right: 2rem;
+  width: 54%;
+}
+#prodactdate {
+  margin-left: 2rem;
+}
+#prodactdate {
+  margin-left: 0rem;
+  width: 8rem;
+}
+
+/* ___---------- */
+#ParcelPat {
+  width: 41%;
+  display: flex;
+  margin-left: auto;
+}
+#serchArea{
+  width: 58%;
+}
+#FeedsNav{
+  display: flex;
+justify-content: space-between;
+}
+ }
+
+.page-link{
+  z-index: 0 !important;
+}
+
+ @media (min-width:1825){
+  body{
+    max-width: 1920px;
+    margin: auto;
+  }
+  #main-wrapper header.topbar{
+    max-width: 1920px;
+    margin: auto;
+  }
+ }
+ /* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  #parcelDatePick{
+    width: 100%;
+ }
+ #SearchDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  border: 1px solid #00b1d5;
+  border-radius: 4px;
+  position: relative;
+  background: #00b1d5;
+  width: 100%;
+}
+#employeeSelect{
+width: 100%;
+ }
+ #selectstyle{
+   width: 100%;
+ }
+ #ParcelHdatePiker{
+   width: 100%;
+   /* margin-top: 1rem; */
+ }
+ #adminBranchListS {
+  width: 100%;
+  margin-top: 0rem;
+}
+ #SerchById{
+   margin-bottom: 0;
+ }
+ #prodactdate {
+  width: 100%;
+}
+#FeedsBranchList{
+  width: 100%;
+}
+#FeedsSearch{
+  width: 100%;
+margin-bottom: 1rem;
+}
+.branchSelet {
+  width: 100%;
+  margin-left: 0rem;
+  align-items: baseline;
+  margin-top: 1rem;
+}
+.branchSelet .css-b62m3t-container{
+  width: 100%;
+}
+#feedsTextcontent{
+  white-space: break-spaces;
+}
+#ADatePikerDiv{
+  margin-top: 1rem;
+}
+
+.profile-tab label {
+  font-weight: 600;
+  text-align: center;
+  color: #03045e;
+  font-size: 10px;
+}
+#Fee {
+  width: 66%;
+}
+}
+
+@media (max-width: 320.98px) { 
+  #Fee {
+    width: 61%;
+  }
+}
+@media (max-width: 300px) { 
+  #Fee {
+    width: 54%;
+  }
+  .FeePaid label input {
+    width: 24%;
+}
+
+
+}
+::-webkit-scrollbar { 
+  display: none; /* Chrome Safari */
+}
+.deliveredIconP{
+  margin-inline-end: auto !important;
+  text-align: right !important;
+}
+.page-link {
+  z-index: -1 !important;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  #parcelDatePick{
+    width: 7rem;
+ }
+ #selectstyle {
+  border: 1px solid #00b1d5;
+  border-radius: 5px;
+  margin-top: 0rem;
+  width: 80%;
+  margin-left: 2rem;
+}
+.branchSelet {
+  width: 10rem;
+  margin-left: 0rem;
+  align-items: baseline;
+  margin-top: 0.2rem;
+}
+#BSearchDiv {
+ 
+ }
+ #accoutList {
+  justify-content: space-between;
+  align-items: normal;
+  margin-bottom: 1rem;
+  display: flex;
+}
+.branchSelet {
+  width: 10rem;
+  margin-left: 1rem;
+  align-items: baseline;
+  margin-top: 0.2rem;
+}
+#adminBranchListS {
+  min-width: 8rem;
+  margin-left: 1rem;
+  
+}
+
+
+#feedsTextcontent{
+  white-space: pre-line;
+}
+#PDatePikerDiv {
+  text-align: left;
+  z-index: 2;
+  margin-inline-start: initial;
+}
+#ADatePikerDiv{
+  margin-inline-start: auto;
+}
+#PDatePikerDiv {
+  text-align: right;
+  margin-inline-start: auto;
+}
+#Fee {
+  width: 74%;
+}
+#employeeSelect {
+  z-index: 2;
+  min-width: 7rem;
+}
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .profile-tab label {
+    font-weight: 600;
+    text-align: center;
+    color: #03045e;
+    text-align: left;
+}
+.dataDiv {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+  #parcelDatePick{
+    width: 7rem;
+ }
+ #selectstyle {
+  border: 1px solid #00b1d5;
+  border-radius: 5px;
+  margin-top: 0rem;
+  width: 100%;
+  
+}
+#PDatePikerDiv{
+  text-align: left;
+}
+#ADatePikerDiv{
+  margin-inline-start: auto;
+}
+#PDatePikerDiv {
+  text-align: right;
+  margin-inline-start: auto;
+}
+.profile-edit-btn {
+  border: none;
+  border-radius: 1.5rem;
+  width: 100%;
+  padding: 2%;
+  font-weight: 600;
+  color: #6c757d;
+  cursor: pointer;
+}
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  #parcelDatePick{
+    width: 7rem;
+ }
+ #prodactdate {
+  margin-top: 0rem;
+}
+#PDatePikerDiv{
+  text-align: right;
+}
+#PDatePikerDiv {
+  text-align: right;
+  z-index: 2;
+  max-width: 10rem;
+}
+#ADatePikerDiv{
+  margin-inline-start: auto;
+}
+#PDatePikerDiv {
+  text-align: right;
+  margin-inline-start: auto;
+}
+#Fee {
+  width: 80%;
+}
+#prodactdate {
+  margin-left: 3rem;
+  min-width: 6.5rem;
+}
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  #PDatePikerDiv {
+    text-align: right;
+    margin-inline-start: auto;
+}
+#ADatePikerDiv{
+  margin-inline-start: auto;
+}
+}
+
